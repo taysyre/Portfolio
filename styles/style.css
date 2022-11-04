@@ -157,7 +157,7 @@ ul {
 }
 
 .main-title .thin{
-    font-weight: 200;
+    font-weight: 200;2
 }
 
 @media only screen and (max-width: 768px){
@@ -167,6 +167,11 @@ ul {
     }
     .box{
         max-width: 800px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    header nav ul li {
+        margin-top: 10px;
     }
 }
 @media screen and (min-width: 100px) {
@@ -199,6 +204,7 @@ footer p {
     align-items: center;
     text-decoration: none;
     margin: 5px 5px;
+
   }
   
   .fa:hover {
