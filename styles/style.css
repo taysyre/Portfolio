@@ -65,8 +65,9 @@ section{
     text-shadow: 10px 10px 20px black;
 }
 .ml1 {
+    
     font-weight: 900;
-    font-size: 3.5em;
+    /* font-size: 3.5em; */
   }
   
   .ml1 .letter {
@@ -80,6 +81,19 @@ section{
     padding-top: 0.1em;
     padding-right: 0.05em;
     padding-bottom: 0.15em;
+  }
+
+  .text-wrapper{
+    animation: shrink-grow 4s infinite;
+  }
+
+  @keyframes shrink-grow {
+    0%{
+        font-size: small;
+    }
+    100% {
+        font-size: 32px;
+    }
   }
   
   .ml1 .line {
