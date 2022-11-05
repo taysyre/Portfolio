@@ -168,10 +168,25 @@ ul {
     .box{
         max-width: 800px;
     }
+    .icon {
+        width: 80px;
+    }
 }
 @media only screen and (max-width: 576px) {
     header nav ul li {
         margin-top: 10px;
+    }
+    .icon {
+        width: 80px;
+        margin: 0 auto;
+
+    }
+    header {
+        padding: 15px 0;
+    }
+
+    .landing-carousel h3 {
+        font-size: xx-large;
     }
 }
 @media screen and (min-width: 100px) {
